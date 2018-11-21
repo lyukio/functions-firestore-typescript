@@ -2,11 +2,11 @@
 Testing project using Cloud Functions, Firebase Firestore and Typescript
 
 ## Steps before starting code
-- Install Node (recente)
+- Install Node (recent)
 - Install NPM (version 6 or more)
 - Install Firebase CLI
     - npm install -g firebase-tools
-    - firebase -v
+    - firebase --version
 - Login in firebase
     - firebase login
 - Start a firebase project
@@ -52,7 +52,7 @@ Testing project using Cloud Functions, Firebase Firestore and Typescript
     - Async keyword forces the function to return a promise
     - Await keyword
         - Temporary pause the execution of an async function until some other promise is fulfilled or rejected
-        - Yield teh value of a fulfilled promise
+        - Yield the value of a fulfilled promise
         - Throw an exception from a rejected promise
         - Can only be used inside an async function
     - To capture errors using async/await use a try-catch block
